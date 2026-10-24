@@ -8,6 +8,8 @@ Style 4 (Cozy Storytelling / 治愈故事风) uses `cozy-storytelling.md`. In Ph
 
 Style 5 (Historical Cartoon / 历史卡通风) uses `historical-cartoon.md`. Include its era pack, complete cast cards, location/prop states, exact VO and shared `voice-continuity.md` profile in Phase A. Keep the drawing grammar while adapting clothing, architecture, palette and music to the era. Its narrative-short ending and physical-action pacing override generic discussion-ending and four-device requirements; reactions may pause deliberately. Separate historical facts from invented comic scenes.
 
+Style 6 (Modern Anime / 现代动漫风) uses `modern-anime.md`. Phase A includes a character sheet per recurring role (identity, face, hair, wardrobe, signature prop, silhouette, four expression states and turnaround notes), a prop plate, a location plate and a cinematic palette. Repeat each full sheet in Phase B. Identity, costume and prop ownership stay fixed while expression, shot size and lighting change. Its close-up reactions, deliberate pauses and story endings override generic four-device, no-idle and discussion-ending checks. Treat the reference sheet as design direction, not as a frame to copy or a guarantee of generated consistency.
+
 ## Rewrite the source
 
 Create one natural English narration scaled to approximately 20–25 words per 10-second clip based on the target duration (e.g. ~60–75 words for 30s, ~120–150 words for 60s default, ~360–450 words for 3min, ~600–750 words for 5min).
@@ -28,7 +30,7 @@ Present these items in order:
 
 1. English title and reference-language title
 2. Core message and opening hook
-3. Chosen aspect ratio (`16:9` or `9:16`), target duration (in 10s multiples), and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, or Style 2B Cinematic Story)
+3. Chosen aspect ratio (`16:9` or `9:16`), target duration (in 10s multiples), and visual style/theme (Style 1 Classic Light/Dark, Style 2A Modern Studio Tech, Style 2B Cinematic Story, Style 4 Cozy Storytelling, Style 5 Historical Cartoon or Style 6 Modern Anime)
 4. Narrator's complete video-level voice profile from `voice-continuity.md` (identity/age, accent, timbre, register, resonance, texture, delivery, pace and recording treatment), English word count, and estimated duration
 5. Up to three saturated accent colors (for Style 1) or visual palette/environment mood (for Style 2), named in ordinary language, and what each represents
 6. BGM direction, emotional turn, tone, and narrative arc
@@ -105,7 +107,7 @@ Require a perceptible visual change every two to three seconds. Make every effec
 
 ## Palette and text
 
-Keep the background and stick figure monochrome according to the selected theme (for Style 1), or use high-key studio grid / cinematic lighting (for Style 2). Use no more than three saturated accent colors across the video. Assign semantic meaning such as anxiety, danger, energy, discovery, or success.
+Keep the background and stick figure monochrome according to the selected theme (for Style 1), or use high-key studio grid / cinematic lighting (for Style 2). For Style 6, use its approved cinematic anime palette with ordinary color names and role assignments. Use no more than three saturated accent colors across the video unless a loaded style reference defines its own palette. Assign semantic meaning such as anxiety, danger, energy, discovery, or success.
 
 Name colors only with ordinary descriptive language. Do not use hexadecimal, RGB, HSL, Pantone, or other technical color notation anywhere in the proposal or production prompts.
 
@@ -120,7 +122,7 @@ Changing ratio requires new staging, camera paths, transition geometry, and over
 
 ## Continuity
 
-End each row with a visible interface that the next row inherits: a pose, moving object, filled frame, travel direction, shape, or camera motion. Name both sides of every connection in the proposal. For Style 4, an approved location cut or time jump may replace literal background matching: state what continues (character, prop, direction or story action) and what changes (place/time). Do not spend all N clips at the same desk unless explicitly requested.
+End each row with a visible interface that the next row inherits: a pose, moving object, filled frame, travel direction, shape, or camera motion. Name both sides of every connection in the proposal. For Style 4 and Style 6, an approved location cut or time jump may replace literal background matching: state what continues (character, prop, direction or story action) and what changes (place/time). Do not spend all N clips at the same desk or platform unless explicitly requested.
 
 ## Confirmation ending
 

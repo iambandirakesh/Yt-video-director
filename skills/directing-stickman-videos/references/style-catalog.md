@@ -14,12 +14,15 @@ This catalog defines the supported visual styles for `directing-stickman-videos`
 | **Style 3** | Prehistoric Hand-Drawn / Dark Comedy (史前手绘 / 黑色幽默) | Earthy prehistoric environments, warm fire accents, subtle paper texture | Satirical stories, visual analogies, ironic callbacks | White filled heads, expressive cartoon faces, black stick limbs, variable story-specific cast |
 | **Style 4** | Cozy Storytelling (治愈故事风) | Full-color 2D cartoon locations, gentle atmospheric light, varied cinematic shots | Relatable life stories, emotional growth, educational storytelling | White filled round head and slim torso, dark stick limbs, simple expressive face |
 | **Style 5** | Historical Cartoon (历史卡通风) | Full-color painterly historical settings, clean cel shading, era-specific wardrobe and props | History explainers, historical daily life, civilization stories and historical comedy | White filled round heads, simple black oval eyes, thick outlines and thin black stick limbs |
+| **Style 6** | Modern Anime (现代动漫风) | Cinematic full-color anime, clean ink linework, layered cel shading, painted atmospheric night and interior light | Character-led stories, emotional turning points, short drama, narrative explainers | Fully drawn humans with expressive anime faces, layered hair, detailed costume and five-fingered hands |
 
 For Style 3 read `prehistoric-dark-comedy.md`. It overrides this catalog's generic motion and piano rules. Fix the drawing grammar across stories, not one universal face; fix each approved character within a story.
 
 For Style 4 read `cozy-storytelling.md`. Treat locations as story beats, not one universal room. Its English display name is **Cozy Storytelling**; do not rename it Sketchbook Stories, hand-drawn, or prehistoric.
 
 For Style 5 read `historical-cartoon.md`. Freeze the drawing grammar; change the era pack, not the character rendering system. Use its cast cards, historical palette and story-appropriate music together with `voice-continuity.md`.
+
+For Style 6 read `modern-anime.md`. Freeze the anime drawing grammar and build a character sheet per recurring role: identity, face, hair, wardrobe, signature prop, silhouette, four expression states and turnaround notes. Add a location plate and prop plate before writing prompts. Style 6 is fully drawn cinema-style anime, not stick figures, chibi bodies or 3D.
 
 ---
 
@@ -141,9 +144,22 @@ Use `historical-cartoon.md` for the full style anchor, era-pack template, cast c
 
 ---
 
-## 6. Universal Audio Continuity Contract
+## 6. Style 6: Modern Anime (现代动漫风)
 
-Voice continuity is a shared foundation for **all styles**, including Styles 3 and 4. Apply `voice-continuity.md` before style-specific music rules. Different videos can choose different voices, while all clips of one video repeat one complete approved voice profile. Keep voice identity separate from the musical arc.
+Cinematic modern-anime humans in painted, atmospheric places, built from a character sheet rather than a single stock face. The owner's reference sheet shows the working method: two leads with front, side and back turnarounds, a four-state expression sheet, separate prop plates and a night-location plate. Use the sheet as a design contract, not a video frame to copy.
+
+- **The look:** clean dark ink outlines, layered cel shading, soft filmic light, detailed eyes and hair, natural adult proportions, five-fingered hands, and painterly backgrounds with volumetric light and drifting air. Night blue and warm lamp amber carry the reference world; other stories change the palette and place, not the drawing grammar.
+- **Character sheet:** identity, face, hair, wardrobe layers, signature prop, silhouette, four expression states and turnaround notes. Repeat each approved sheet in full in every prompt where that role appears.
+- **Best for:** character-led shorts, emotional stories, short drama, narrative explainers and mood-driven trailers.
+- **Not:** stick figures, chibi or super-deformed comedy, 3D CGI, photorealistic live action, or visible signage and manga lettering. Keep signs blank or icon-only and add overlays in post-production.
+
+Use `modern-anime.md` for the full drawing anchor, reference Night Railway cast, sheet fields, shot language, prompt order and acceptance checklist.
+
+---
+
+## 7. Universal Audio Continuity Contract
+
+Voice continuity is a shared foundation for **all styles**, including Styles 3–6. Apply `voice-continuity.md` before style-specific music rules. Different videos can choose different voices, while all clips of one video repeat one complete approved voice profile. Keep voice identity separate from the musical arc.
 
 ### Narrator Voice Lock
 ```text
@@ -163,7 +179,7 @@ This is the user-accepted male example, not a compulsory voice for every project
 
 ---
 
-## 7. Visual Beat Pacing Template (10-Second Clip)
+## 8. Visual Beat Pacing Template (10-Second Clip)
 
 Every prompt must divide its 10 seconds into three active narrative beats:
 

@@ -19,7 +19,7 @@ for source in (skill / "SKILL.md", guide):
 
 # Keep the existing Director production contract byte-for-byte unchanged.
 legacy = "## A · Director\n" + entry.split("## A · Director\n", 1)[1]
-assert hashlib.sha256(legacy.encode()).hexdigest() == "f710612be73c952fb130d891b0650388ec5ae89469cae95eda8e147eec18b73e"
+assert hashlib.sha256(legacy.encode()).hexdigest() == "36e8a31e113caff9f9da4acbce93e220d616c448c4cfcb132b512f8ec9dff658"
 assert len(entry.encode()) <= 14000, "Keep the new workflow detail in references"
 frontmatter = entry.split("---\n", 2)[1]
 name = re.search(r"^name: (.+)$", frontmatter, re.M).group(1)

@@ -8,6 +8,8 @@ Style 4 (Cozy Storytelling / 治愈故事风): read `cozy-storytelling.md`. Repe
 
 Style 5 (Historical Cartoon / 历史卡通风): read `historical-cartoon.md` for its standalone prompt order and overrides. Repeat the full frozen drawing anchor, visible cast cards, approved era pack and complete `voice-continuity.md` voice block in every clip. Keep solid oval eyes and black stick limbs, with historical costume and colored painterly scenery. Do not inherit Style 1's hollow-head/no-face/no-clothes contract or generic piano, three-color, four-device and no-idle requirements. Follow its era score, physical beats and planned cuts; do not shorten approved anchors to meet an arbitrary character budget.
 
+Style 6 (Modern Anime / 现代动漫风): read `modern-anime.md` for its sheet fields, prompt order, shot language and checklist. Repeat the full anime drawing anchor, every visible character sheet, this clip's approved expression state, the prop plate and the location plate. Keep clean ink outlines, cel shading, painted depth and five-fingered hands. Do not inherit Style 1's hollow-head/no-face bans or Style 5's stick limbs; do not render chibi proportions, 3D CGI or photorealistic live action. Its close-up reactions, deliberate pauses and story endings override generic four-device, no-idle and discussion-ending requirements. Apply the shared voice contract unchanged.
+
 ## Production package order
 
 Deliver these sections in order:
@@ -19,7 +21,7 @@ Deliver these sections in order:
 
 ## Global continuity block
 
-State the chosen aspect ratio (`16:9` or `9:16`), target duration, selected visual style (Style 1 Classic, Style 2A Studio Tech, Style 2B Cinematic Story, Style 3 Prehistoric, or Style 4 Cozy Storytelling), character anchor design, palette or environment definition, narrator identity, audio arc, and continuity strategy. Treat this block as a review summary; each prompt still repeats all critical locks.
+State the chosen aspect ratio (`16:9` or `9:16`), target duration, selected visual style (Style 1 Classic, Style 2A Studio Tech, Style 2B Cinematic Story, Style 3 Prehistoric, Style 4 Cozy Storytelling, Style 5 Historical Cartoon or Style 6 Modern Anime), character anchor design, palette or environment definition, narrator identity, audio arc, and continuity strategy. Treat this block as a review summary; each prompt still repeats all critical locks.
 
 ## Standalone prompt order
 
@@ -32,12 +34,14 @@ Write every prompt in this order:
    - For Style 2A (Studio Tech): modern bright white studio space with subtle light-gray perspective grid lines on the floor plane, high-key lighting, clean white negative space, sleek glowing cyan/blue glass elements
    - For Style 2B (Cinematic Story): rich full-color cinematic environment with volumetric lighting and depth of field
    - For Style 4 (Cozy Storytelling): full-color 2D cartoon environment and a segment-specific setting, with varied wide/close/moving shots; new segment means an intentional scene change unless otherwise approved
+   - For Style 6 (Modern Anime): the approved painted location plate with its lighting state, cinematic depth and drifting air; signs stay blank or icon-only
 3. Character lock:
    - For Style 1: repeat the concise frozen character anchor from `style-catalog.md`, including the chosen polarity and expression setting; no "same character" shortcuts, numeric anatomy recipes, skeleton/rig definitions or pen paths. Keep the circular head hollow, proportions and line weight stable, and only the current pose of each of the two arms and two legs. A raised arm replaces its old lowered line. Keep accents on props/graphics, never recolor the figure. Do not let action or camera wording redefine the drawing; preserve rich motion and effects separately.
    - For Style 2 (Modern Beanie Zeke):
      - First clip: `A minimalist 2D animated stick figure wearing a bright red beanie (smooth knit, no pom-pom) and a yellow t-shirt, with simple black stick limbs and shorts. Simple black lines, vibrant colors, smooth 2D animation style.`
      - Subsequent clips: `The same minimalist 2D animated stick figure in a bright red beanie and yellow shirt... Simple black lines, vibrant colors, smooth 2D animation style.`
    - For Style 4: repeat its full frozen character anchor from `cozy-storytelling.md`, including white head/torso fill, dark limbs and simple facial marks. Location and expression changes do not redesign the character.
+   - For Style 6: repeat every visible role's full approved character sheet from `modern-anime.md`, with this clip's expression state and the prop counts. Expression, camera and lighting may change; face, hair, wardrobe, prop ownership and adult proportions may not.
 4. Palette and accent roles (expressed only with ordinary color names, no hex or technical codes)
 5. Composition strategy for the chosen ratio (`16:9` or `9:16`)
 6. First-frame state inherited from the previous clip
@@ -110,6 +114,7 @@ Forbid:
 - speech bubbles, comic dialog balloons, or visual text boxes
 - **For Style 2A specifically**: `strictly minimalist studio aesthetic, no circuit board textures, no sci-fi wall panels, no spaceship corridors, no cracked concrete, no grunge textures`
 - **For Style 2B specifically**: `no photorealistic human skin, no 3D humanoid CGI models, no chaotic line glitches`
+- **For Style 6 specifically**: `no 3D CGI or photorealistic live action, no chibi or super-deformed proportions, no stick figures, no manga sound-effect lettering, no readable signage copy`; do not ban the approved drawn anime faces, hair, hands or costume
 
 ## Stitching guide
 
